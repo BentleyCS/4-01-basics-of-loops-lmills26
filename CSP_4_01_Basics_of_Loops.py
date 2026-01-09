@@ -52,11 +52,11 @@ def randomRepeating(n):
     tries = 0
     n = random.randint(1,10)
     while n!=10:
-    print(n)
-    tries += 1
-    n =random.randint(1,10)
-    print(n)
-    tries += 1
+        print(n)
+        tries += 1
+        n =random.randint(1,10)
+        print(n)
+        tries += 1
     print(f"it took {tries} tries to get a 10")
     return(tries)
     """
@@ -106,7 +106,7 @@ def fizzBuzzContinuous(n):
             return ("fizzbuzz")
         else:
             return(i)
-fizzBuzzContinuous(n)
+//fizzBuzzContinuous(n)
 
     """
     Modify the function such that it does the fizzbuzz operation on all numbers
@@ -130,7 +130,7 @@ def collatz(n):
             return(i/2)
         else:
             return(i*3)
-collatz(n)
+//collatz(n)
 
     """
     Modify this function such that it mimics the collatz conjecture starting at n
