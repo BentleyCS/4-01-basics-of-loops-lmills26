@@ -106,7 +106,7 @@ def fizzBuzzContinuous(n):
             return ("fizzbuzz")
         else:
             return(i)
-//fizzBuzzContinuous(n)
+#fizzBuzzContinuous(n)
 
     """
     Modify the function such that it does the fizzbuzz operation on all numbers
@@ -130,7 +130,7 @@ def collatz(n):
             return(i/2)
         else:
             return(i*3)
-//collatz(n)
+#collatz(n)
 
     """
     Modify this function such that it mimics the collatz conjecture starting at n
